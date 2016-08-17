@@ -1,0 +1,194 @@
+# depslib dependency file v1.0
+1470125031 source:c:\users\emil\desktop\evolving-snakes-master\main.cpp
+
+1458211478 c:\users\emil\desktop\evolving-snakes-master\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1471422287 c:\users\emil\desktop\evolving-snakes-master\headers\snake.h
+	"block.h"
+	"controller.h"
+	<vector>
+
+1471282926 c:\users\emil\desktop\evolving-snakes-master\headers\block.h
+	"point.h"
+
+1471283051 c:\users\emil\desktop\evolving-snakes-master\headers\point.h
+
+1471195174 c:\users\emil\desktop\evolving-snakes-master\headers\draw.h
+	"snake.h"
+	"food.h"
+	<vector>
+	<GLFW/glfw3.h>
+
+1471415557 c:\users\emil\desktop\evolving-snakes-master\headers\window_functions.h
+	<string>
+	<queue>
+	<vector>
+	<GLFW/glfw3.h>
+
+1470309612 source:c:\users\emil\desktop\evolving-snakes-master\sources\colours.cpp
+	"../headers/colours.h"
+
+1470309613 c:\users\emil\desktop\evolving-snakes-master\headers\colours.h
+
+1471371023 source:c:\users\emil\desktop\evolving-snakes-master\sources\draw.cpp
+	"../headers/draw.h"
+	"../headers/window_size.h"
+	"../headers/field_radius.h"
+	"../headers/colours.h"
+	"../headers/window_functions.h"
+	<math.h>
+
+1470062227 c:\users\emil\desktop\evolving-snakes-master\headers\window_size.h
+
+1471424609 c:\users\emil\desktop\evolving-snakes-master\headers\field_radius.h
+
+1470125818 source:c:\users\emil\desktop\evolving-snakes-master\sources\field_radius.cpp
+	"../headers/field_radius.h"
+
+1471021512 source:c:\users\emil\desktop\evolving-snakes-master\sources\point.cpp
+	"../headers/point.h"
+	"../headers/field_radius.h"
+	<stdlib.h>
+
+1471472804 source:c:\users\emil\desktop\evolving-snakes-master\sources\snake.cpp
+	"../headers/snake.h"
+	"../headers/field_radius.h"
+	"../headers/randomisation.h"
+	<stdlib.h>
+
+1471376304 source:c:\users\emil\desktop\evolving-snakes-master\sources\main.cpp
+	"../headers/run.h"
+	"../headers/window_functions.h"
+	<iostream>
+	<stdlib.h>
+
+1471418221 source:c:\users\emil\desktop\evolving-snakes-master\sources\window_functions.cpp
+	"../headers/window_functions.h"
+	"../headers/field_radius.h"
+	"../headers/window_size.h"
+	<iostream>
+	<queue>
+
+1470148124 source:c:\users\emil\desktop\evolving-snakes-master\sources\window_size.cpp
+	"../headers/window_size.h"
+
+1471408770 c:\users\emil\desktop\evolving-snakes-master\headers\run.h
+	"snake.h"
+	"controller.h"
+	"field.h"
+	<vector>
+	<GLFW/glfw3.h>
+
+1471421878 source:c:\users\emil\desktop\evolving-snakes-master\sources\run.cpp
+	"../headers/run.h"
+	"../headers/snake.h"
+	"../headers/ctrRandom.h"
+	"../headers/ctrNeuralNetwork.h"
+	"../headers/sight.h"
+	"../headers/draw.h"
+	"../headers/draw_neural_net.h"
+	"../headers/window_functions.h"
+	"../headers/randomisation.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<algorithm>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
+
+1470206022 source:c:\users\emil\desktop\evolving-snakes-master\sources\index_tree.cpp
+	"../headers/index_tree.h"
+
+1470205915 c:\users\emil\desktop\evolving-snakes-master\headers\index_tree.h
+	<vector>
+
+1471233503 source:c:\users\emil\desktop\evolving-snakes-master\sources\food.cpp
+	"../headers/food.h"
+
+1471283038 c:\users\emil\desktop\evolving-snakes-master\headers\food.h
+	"point.h"
+
+1471021714 c:\users\emil\desktop\evolving-snakes-master\headers\field.h
+	"field_radius.h"
+	<vector>
+
+1471021968 c:\users\emil\desktop\evolving-snakes-master\headers\sight.h
+	"field.h"
+	"point.h"
+	"snake.h"
+
+1471202687 source:c:\users\emil\desktop\evolving-snakes-master\sources\sight.cpp
+	"../headers/sight.h"
+
+1471395289 c:\users\emil\desktop\evolving-snakes-master\headers\controller.h
+	"decision.h"
+	<string>
+	<vector>
+
+1471283023 c:\users\emil\desktop\evolving-snakes-master\headers\decision.h
+
+1471202538 c:\users\emil\desktop\evolving-snakes-master\headers\ctr_random.h
+	"controller.h"
+
+1471203637 source:c:\users\emil\desktop\evolving-snakes-master\sources\ctr_random.cpp
+	"../headers/ctr_random.h"
+	"../headers/decision.h"
+	<stdlib.h>
+
+1471372317 source:c:\users\emil\desktop\evolving-snakes-master\sources\ctrrandom.cpp
+	"../headers/ctrRandom.h"
+	"../headers/decision.h"
+	<stdlib.h>
+
+1471372153 c:\users\emil\desktop\evolving-snakes-master\headers\ctrrandom.h
+	"controller.h"
+	<vector>
+
+1471221890 source:c:\users\emil\desktop\evolving-snakes-master\sources\mutation.cpp
+	"../headers/mutation.h"
+	<stdlib.h>
+
+1471221903 c:\users\emil\desktop\evolving-snakes-master\headers\mutation.h
+
+1471408803 source:c:\users\emil\desktop\evolving-snakes-master\sources\ctrneuralnetwork.cpp
+	"../headers/ctrNeuralNetwork.h"
+	"../headers/decision.h"
+	"../headers/randomisation.h"
+	<math.h>
+
+1471379958 c:\users\emil\desktop\evolving-snakes-master\headers\ctrneuralnetwork.h
+	"controller.h"
+	<vector>
+
+1471277091 c:\users\emil\desktop\evolving-snakes-master\headers\randomisation.h
+
+1471277047 source:c:\users\emil\desktop\evolving-snakes-master\sources\randomisation.cpp
+	"../headers/randomisation.h"
+	<stdlib.h>
+
+1471293426 source:c:\users\emil\desktop\evolving-snakes-master\sources\controller.cpp
+	"../headers/controller.h"
+
+1471420766 source:c:\users\emil\desktop\evolving-snakes-master\sources\draw_neural_net.cpp
+	"../headers/draw_neural_net.h"
+	"../headers/draw.h"
+	"../headers/colours.h"
+	"../headers/window_size.h"
+	"../headers/ctrNeuralNetwork.h"
+
+1471395600 c:\users\emil\desktop\evolving-snakes-master\headers\draw_neural_net.h
+	<vector>
+	<GLFW/glfw3.h>
+
