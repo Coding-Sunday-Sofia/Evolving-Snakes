@@ -335,3 +335,152 @@
 1472209918 source:c:\users\user\desktop\evolving-snakes\sources\window_size.cpp
 	"../headers/window_size.h"
 
+1472209918 source:d:\github\evolving-snakes\sources\colours.cpp
+	"../headers/colours.h"
+
+1472209918 d:\github\evolving-snakes\headers\colours.h
+
+1472209918 source:d:\github\evolving-snakes\sources\controller.cpp
+	"../headers/controller.h"
+
+1472209918 d:\github\evolving-snakes\headers\controller.h
+	"decision.h"
+	<string>
+	<vector>
+
+1472209918 d:\github\evolving-snakes\headers\decision.h
+
+1472209918 source:d:\github\evolving-snakes\sources\ctrneuralnetwork.cpp
+	"../headers/ctrNeuralNetwork.h"
+	"../headers/decision.h"
+	"../headers/randomisation.h"
+	<math.h>
+
+1472209918 d:\github\evolving-snakes\headers\ctrneuralnetwork.h
+	"controller.h"
+	<vector>
+
+1472209918 d:\github\evolving-snakes\headers\randomisation.h
+
+1472209918 source:d:\github\evolving-snakes\sources\ctrrandom.cpp
+	"../headers/ctrRandom.h"
+	"../headers/decision.h"
+	<stdlib.h>
+
+1472209918 d:\github\evolving-snakes\headers\ctrrandom.h
+	"controller.h"
+	<vector>
+
+1472209918 source:d:\github\evolving-snakes\sources\draw.cpp
+	"../headers/draw.h"
+	"../headers/window_size.h"
+	"../headers/field_radius.h"
+	"../headers/colours.h"
+	"../headers/window_functions.h"
+	<math.h>
+
+1472209918 d:\github\evolving-snakes\headers\draw.h
+	"snake.h"
+	"food.h"
+	<vector>
+	<GLFW/glfw3.h>
+
+1472209918 d:\github\evolving-snakes\headers\snake.h
+	"block.h"
+	"controller.h"
+	<vector>
+
+1472209918 d:\github\evolving-snakes\headers\block.h
+	"point.h"
+
+1472209918 d:\github\evolving-snakes\headers\point.h
+
+1472209918 d:\github\evolving-snakes\headers\food.h
+	"point.h"
+
+1379595552 d:\github\evolving-snakes\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1472209918 d:\github\evolving-snakes\headers\window_size.h
+
+1472209918 d:\github\evolving-snakes\headers\field_radius.h
+
+1472214845 d:\github\evolving-snakes\headers\window_functions.h
+	<string>
+	<queue>
+	<vector>
+	<GLFW/glfw3.h>
+
+1472209918 source:d:\github\evolving-snakes\sources\draw_neural_net.cpp
+	"../headers/draw_neural_net.h"
+	"../headers/draw.h"
+	"../headers/colours.h"
+	"../headers/window_size.h"
+	"../headers/ctrNeuralNetwork.h"
+
+1472209918 d:\github\evolving-snakes\headers\draw_neural_net.h
+	<vector>
+	<GLFW/glfw3.h>
+
+1472209918 source:d:\github\evolving-snakes\sources\food.cpp
+	"../headers/food.h"
+
+1472209918 source:d:\github\evolving-snakes\sources\main.cpp
+	"../headers/run.h"
+	"../headers/window_functions.h"
+	<iostream>
+	<stdlib.h>
+
+1472211838 d:\github\evolving-snakes\headers\run.h
+	"snake.h"
+	"controller.h"
+	"field.h"
+	<vector>
+	<GLFW/glfw3.h>
+
+1472209918 d:\github\evolving-snakes\headers\field.h
+	"field_radius.h"
+	<vector>
+
+1472209918 source:d:\github\evolving-snakes\sources\point.cpp
+	"../headers/point.h"
+	"../headers/field_radius.h"
+	<stdlib.h>
+
+1472209918 source:d:\github\evolving-snakes\sources\randomisation.cpp
+	"../headers/randomisation.h"
+	<stdlib.h>
+
+1472209918 source:d:\github\evolving-snakes\sources\sight.cpp
+	"../headers/sight.h"
+
+1472209918 d:\github\evolving-snakes\headers\sight.h
+	"field.h"
+	"point.h"
+	"snake.h"
+
+1472209918 source:d:\github\evolving-snakes\sources\snake.cpp
+	"../headers/snake.h"
+	"../headers/field_radius.h"
+	"../headers/randomisation.h"
+	<stdlib.h>
+
+1472214901 source:d:\github\evolving-snakes\sources\window_functions.cpp
+	"../headers/window_functions.h"
+	"../headers/field_radius.h"
+	"../headers/window_size.h"
+	<iostream>
+	<queue>
+
+1472209918 source:d:\github\evolving-snakes\sources\window_size.cpp
+	"../headers/window_size.h"
+
