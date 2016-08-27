@@ -385,7 +385,7 @@
 	<vector>
 	<GLFW/glfw3.h>
 
-1472209918 d:\github\evolving-snakes\headers\snake.h
+1472329037 d:\github\evolving-snakes\headers\snake.h
 	"block.h"
 	"controller.h"
 	<vector>
@@ -440,7 +440,7 @@
 	<iostream>
 	<stdlib.h>
 
-1472211838 d:\github\evolving-snakes\headers\run.h
+1472328997 d:\github\evolving-snakes\headers\run.h
 	"snake.h"
 	"controller.h"
 	"field.h"
@@ -468,7 +468,7 @@
 	"point.h"
 	"snake.h"
 
-1472209918 source:d:\github\evolving-snakes\sources\snake.cpp
+1472329037 source:d:\github\evolving-snakes\sources\snake.cpp
 	"../headers/snake.h"
 	"../headers/field_radius.h"
 	"../headers/randomisation.h"
@@ -483,4 +483,23 @@
 
 1472209918 source:d:\github\evolving-snakes\sources\window_size.cpp
 	"../headers/window_size.h"
+
+1472215283 source:d:\github\evolving-snakes\sources\run.cpp
+	"../headers/run.h"
+	"../headers/snake.h"
+	"../headers/ctrRandom.h"
+	"../headers/ctrNeuralNetwork.h"
+	"../headers/sight.h"
+	"../headers/draw.h"
+	"../headers/draw_neural_net.h"
+	"../headers/window_functions.h"
+	"../headers/randomisation.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<algorithm>
+	<stdlib.h>
+	<conio.h>
+	<chrono>
 
