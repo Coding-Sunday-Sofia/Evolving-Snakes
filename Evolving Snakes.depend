@@ -14,19 +14,19 @@
 
 1506111667 d:\github\evolving-snakes\headers\decision.h
 
-1506204516 source:d:\github\evolving-snakes\sources\ctrneuralnetwork.cpp
+1506445067 source:d:\github\evolving-snakes\sources\ctrneuralnetwork.cpp
 	"../headers/ctrNeuralNetwork.h"
 	"../headers/decision.h"
 	"../headers/randomisation.h"
 	<math.h>
 
-1506113774 d:\github\evolving-snakes\headers\ctrneuralnetwork.h
+1506442806 d:\github\evolving-snakes\headers\ctrneuralnetwork.h
 	"controller.h"
 	<vector>
 
 1505620053 d:\github\evolving-snakes\headers\randomisation.h
 
-1505620053 source:d:\github\evolving-snakes\sources\draw.cpp
+1506446364 source:d:\github\evolving-snakes\sources\draw.cpp
 	"../headers/draw.h"
 	"../headers/window_size.h"
 	"../headers/field_radius.h"
@@ -34,7 +34,7 @@
 	"../headers/window_functions.h"
 	<math.h>
 
-1505620053 d:\github\evolving-snakes\headers\draw.h
+1506445980 d:\github\evolving-snakes\headers\draw.h
 	"snake.h"
 	"food.h"
 	<vector>
@@ -69,20 +69,20 @@
 
 1505620053 d:\github\evolving-snakes\headers\field_radius.h
 
-1505620053 d:\github\evolving-snakes\headers\window_functions.h
+1506446437 d:\github\evolving-snakes\headers\window_functions.h
 	<string>
 	<queue>
 	<vector>
 	<GLFW/glfw3.h>
 
-1505620053 source:d:\github\evolving-snakes\sources\draw_neural_net.cpp
+1506445861 source:d:\github\evolving-snakes\sources\draw_neural_net.cpp
 	"../headers/draw_neural_net.h"
 	"../headers/draw.h"
 	"../headers/colours.h"
 	"../headers/window_size.h"
 	"../headers/ctrNeuralNetwork.h"
 
-1505620053 d:\github\evolving-snakes\headers\draw_neural_net.h
+1506444934 d:\github\evolving-snakes\headers\draw_neural_net.h
 	<vector>
 	<GLFW/glfw3.h>
 
@@ -111,11 +111,11 @@
 	"../headers/field_radius.h"
 	<stdlib.h>
 
-1506272975 source:d:\github\evolving-snakes\sources\randomisation.cpp
+1506442294 source:d:\github\evolving-snakes\sources\randomisation.cpp
 	"../headers/randomisation.h"
 	<stdlib.h>
 
-1506352456 source:d:\github\evolving-snakes\sources\run.cpp
+1506447376 source:d:\github\evolving-snakes\sources\run.cpp
 	"../headers/run.h"
 	"../headers/snake.h"
 	"../headers/ctrRandom.h"
@@ -155,7 +155,7 @@
 	"../headers/names.h"
 	<stdlib.h>
 
-1505620053 source:d:\github\evolving-snakes\sources\window_functions.cpp
+1506446425 source:d:\github\evolving-snakes\sources\window_functions.cpp
 	"../headers/window_functions.h"
 	"../headers/field_radius.h"
 	"../headers/window_size.h"
